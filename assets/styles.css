@@ -1,0 +1,54 @@
+body {
+    font-family: 'Helvetica';
+    font-size: 25px;
+    line-height: 29px;
+    margin: 0;
+    padding: 0;
+}
+  
+.blue {
+    font-family: Arial;
+    color: #fff;
+    background: #0000FF;
+    padding: 30px 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.flex div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    border: 5px solid #000000;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 140px;
+    width: 100%;
+}
+
+@media only screen and (min-width: 845px) {
+
+    .flex {
+        margin: 100px;
+        justify-content: space-evenly;
+    }
+
+    .flex div {
+        width: 42%;
+        height: auto;
+        font-size: 50px;
+        line-height: 57px;
+    }
+
+}
